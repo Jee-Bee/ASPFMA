@@ -22,7 +22,7 @@ def IDFT(X):
     x = []
     for n in range(N):
         s = np.exp(1j * 2 * np.pi * n / N * k)
-        x = np.append(x, 1 / N * np.sum(X * s))
+        x = np.append(x, 1 / N * (X * s).sum())
     return(x)
 
 X = np.array([1, 1, 1, 1])

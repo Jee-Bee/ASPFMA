@@ -7,7 +7,7 @@ Created on Mon Apr 18 15:26:57 2016
 
 import numpy as np
 from scipy.fftpack import fft, ifft
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 
 
 def optimalZeropad(x, fs, f):

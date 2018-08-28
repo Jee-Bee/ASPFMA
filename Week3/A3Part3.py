@@ -7,7 +7,7 @@ Created on Wed Apr 20 15:13:49 2016
 
 import numpy as np
 from scipy.fftpack import fft
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 
 
 def testRealEven(x):

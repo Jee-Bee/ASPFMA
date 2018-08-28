@@ -8,7 +8,7 @@ Created on Mon Apr 18 11:42:28 2016
 import numpy as np
 from fractions import gcd
 from scipy.fftpack import fft, ifft
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 
 def minimizeEnergySpreadDFT(x, fs, f1, f2):
     """

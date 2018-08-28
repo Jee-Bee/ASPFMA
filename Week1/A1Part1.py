@@ -6,11 +6,12 @@ Created on Tue Apr  5 09:25:13 2016
 """
 import os
 import sys
-# import numpy as np
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'sms_tools/software/models/'))
 import utilFunctions as uf
 #from sms_tools.software.models import utilFunctions
 from cython import *
+# import numpy as np
+
 
 def readAudio(inputFile):
     """

@@ -20,8 +20,8 @@ def minMaxAudio(inputFile):
         samples, like: (min_val, max_val)
     """
     fs, wavfile = uf.wavread(inputFile)
-    minval = np.min(wavfile)
-    maxval = np.max(wavfile)
+    minval = wavfile.min()
+    maxval = wavfile.max()
     return((minval, maxval))
 
 
